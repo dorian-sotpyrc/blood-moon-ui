@@ -3,6 +3,11 @@
 A **static, stealable UI kit** — open `index.html` and you’re running.  
 No frameworks, no build steps, no dependencies.
 
+Built by **Dorian Sotpyrc** for **plexdata.online**.
+
+- Website: https://plexdata.online  
+- Medium: https://medium.com/@doriansotpyrc
+
 **Theme:** Blood Moon — premium dark, calm crimson accents, audit-grade readability.
 
 ## What’s inside
@@ -39,7 +44,7 @@ python3 -m http.server 7063 --bind 0.0.0.0
 
 Visit:
 
-* `http://localhost:7063`
+* [http://localhost:7063](http://localhost:7063)
 
 ## Design rules (minimal)
 
