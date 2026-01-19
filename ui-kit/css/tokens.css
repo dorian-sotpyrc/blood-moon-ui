@@ -1,0 +1,48 @@
+/* Blood Moon — PLEX Minimal UI Kit
+   Swap this file to re-skin most of the UI.
+*/
+:root{
+  --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 26px;
+
+  --s-1: 6px;
+  --s-2: 10px;
+  --s-3: 14px;
+  --s-4: 18px;
+  --s-5: 24px;
+  --s-6: 34px;
+  --s-7: 48px;
+
+  /* Wine surfaces (not pure black) */
+  --bg0:#14060D;
+  --bg1:#1E0711;
+  --bg2:#2A0B16;
+  --bg3:#3D1020;
+
+  --ink:#FFF2F5;
+  --muted:#E2BCC8;
+  --muted2:#C79AAA;
+
+  --accent:#B72552;
+  --accentDeep:#9C192B;
+  --danger:#E93D42;
+  --rim:#742C8B;
+
+  --line: rgba(255,242,245,.12);
+  --line2: rgba(255,242,245,.18);
+  --focus: rgba(233,61,66,.35);
+
+  --shadowA: 0 22px 60px rgba(0,0,0,.55);
+  --shadowB: 0 12px 26px rgba(0,0,0,.42);
+  --shadowIn: inset 0 1px 0 rgba(255,255,255,.06), inset 0 -1px 0 rgba(0,0,0,.35);
+
+  --max: 1100px;
+  --nav-h: 66px;
+
+  --t: 180ms;
+  --ease: cubic-bezier(.2,.8,.2,1);
+}

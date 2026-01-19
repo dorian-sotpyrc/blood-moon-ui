@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Blood Moon UI — Minimal PLEX Kit</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2064%2064%27%3E%3Cdefs%3E%3CradialGradient%20id=%27g%27%20cx=%2732%27%20cy=%2726%27%20r=%2728%27%20gradientUnits=%27userSpaceOnUse%27%3E%3Cstop%20offset=%270%27%20stop-color=%27%23fff2f5%27%20stop-opacity=%270.18%27/%3E%3Cstop%20offset=%270.35%27%20stop-color=%27%23e93d42%27%20stop-opacity=%270.95%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27%239c192b%27%20stop-opacity=%271%27/%3E%3C/radialGradient%3E%3CradialGradient%20id=%27h%27%20cx=%2732%27%20cy=%2732%27%20r=%2730%27%3E%3Cstop%20offset=%270.55%27%20stop-color=%27%23b72552%27%20stop-opacity=%270%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27%23b72552%27%20stop-opacity=%270.35%27/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect%20width=%2764%27%20height=%2764%27%20rx=%2716%27%20fill=%27%2314060d%27/%3E%3Ccircle%20cx=%2732%27%20cy=%2732%27%20r=%2720%27%20fill=%27url(%23g)%27/%3E%3Ccircle%20cx=%2732%27%20cy=%2732%27%20r=%2726%27%20fill=%27url(%23h)%27/%3E%3Cpath%20d=%27M44%2016c-6%202-11%208-13%2014-2%206-1%2012%202%2017%27%20fill=%27none%27%20stroke=%27%23742c8b%27%20stroke-opacity=%270.28%27%20stroke-width=%272.2%27%20stroke-linecap=%27round%27/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" role="banner">
+  <div class="container">
+    <div class="nav-inner">
+      <div class="brand" aria-label="PLEX">
+        <span class="mark" aria-hidden="true"></span>
+        <span>PLEX</span>
+        <span class="badge">Blood Moon</span>
+      </div>
+
+      <!-- Desktop links -->
+      <nav class="navlinks navlinks-desktop" aria-label="Sections">
+        <a class="active" href="#kit">Kit</a>
+        <a href="#palette">Palette</a>
+        <a href="#inputs">Inputs</a>
+        <a href="#buttons">Buttons</a>
+        <a href="#lists">Lists</a>
+      </nav>
+
+      <!-- Mobile dropdown -->
+      <div class="nav-mobile">
+        <button class="btn icon nav-toggle" type="button"
+          aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">☰</button>
+
+        <div id="navMenu" class="nav-menu" role="menu" aria-label="Menu">
+          <a role="menuitem" href="#kit">Kit</a>
+          <a role="menuitem" href="#palette">Palette</a>
+          <a role="menuitem" href="#inputs">Inputs</a>
+          <a role="menuitem" href="#buttons">Buttons</a>
+          <a role="menuitem" href="#lists">Lists</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="container" style="padding: var(--s-6) 0">
+  <section id="kit" class="hero anchor" style="margin-top: var(--s-4)">
+    <div class="hero-media" role="img" aria-label="Blood Moon hero artwork"></div>
+    <div class="hero-body">
+      <div class="kit-head">
+        <div style="max-width: 70ch">
+          <div class="kicker">Minimal UI primitives</div>
+          <h1 style="margin-top:10px">Blood Moon UI Kit</h1>
+          <p>Single-page, high-minimalist component gallery. Token-driven palette and accessible focus.</p>
+
+          <div class="kit-actions" style="margin-top: var(--s-4)">
+            <button class="btn primary" type="button"><span class="dot" aria-hidden="true"></span>Primary</button>
+            <button class="btn secondary" type="button">Secondary</button>
+            <button class="btn ghost" type="button">Ghost</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section anchor" id="palette">
+    <div class="row spread wrap">
+      <div>
+        <div class="kicker">Brand</div>
+        <h2>Palette + decisions</h2>
+        <p>Minimal “Blood Moon” rules: premium dark, calm reds, readable audit surfaces.</p>
+      </div>
+      <span class="chip">tokens.css</span>
+    </div>
+
+    <div class="grid2" style="margin-top: var(--s-5)">
+      <div class="panel card">
+        <div class="kicker">Core colors</div>
+        <div class="divider"></div>
+
+        <div style="display:grid; gap:12px; grid-template-columns: 1fr 1fr">
+          <div class="swatch" style="--c: var(--bg0)"><div class="swatch-chip"></div><div><div class="swatch-k">BG0</div><div class="swatch-v mono">--bg0</div></div></div>
+          <div class="swatch" style="--c: var(--bg1)"><div class="swatch-chip"></div><div><div class="swatch-k">BG1</div><div class="swatch-v mono">--bg1</div></div></div>
+          <div class="swatch" style="--c: var(--bg2)"><div class="swatch-chip"></div><div><div class="swatch-k">BG2</div><div class="swatch-v mono">--bg2</div></div></div>
+          <div class="swatch" style="--c: var(--bg3)"><div class="swatch-chip"></div><div><div class="swatch-k">BG3</div><div class="swatch-v mono">--bg3</div></div></div>
+
+          <div class="swatch" style="--c: var(--ink)"><div class="swatch-chip"></div><div><div class="swatch-k">INK</div><div class="swatch-v mono">--ink</div></div></div>
+          <div class="swatch" style="--c: var(--muted)"><div class="swatch-chip"></div><div><div class="swatch-k">MUTED</div><div class="swatch-v mono">--muted</div></div></div>
+
+          <div class="swatch" style="--c: var(--accent)"><div class="swatch-chip"></div><div><div class="swatch-k">ACCENT</div><div class="swatch-v mono">--accent</div></div></div>
+          <div class="swatch" style="--c: var(--danger)"><div class="swatch-chip"></div><div><div class="swatch-k">DANGER</div><div class="swatch-v mono">--danger</div></div></div>
+
+          <div class="swatch" style="--c: var(--rim)"><div class="swatch-chip"></div><div><div class="swatch-k">RIM</div><div class="swatch-v mono">--rim</div></div></div>
+        </div>
+      </div>
+
+      <div class="panel card">
+        <div class="kicker">Design decisions</div>
+        <div class="divider"></div>
+        <ul style="margin:0; padding-left: 18px; color: var(--muted)">
+          <li><b>Not pure black:</b> wine surfaces keep reds alive and reduce harsh contrast.</li>
+          <li><b>Crimson is sparse:</b> only focus/active/danger — not always-on neon.</li>
+          <li><b>Audit readability:</b> thin borders + subtle stripes, no heavy glass.</li>
+          <li><b>Focus-visible:</b> every interactive element gets a visible ring.</li>
+          <li><b>Motion restraint:</b> no heavy animation; respects reduced motion.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section anchor" id="inputs">
+    <div class="row spread wrap">
+      <div>
+        <div class="kicker">Inputs</div>
+        <h2>Input boxes</h2>
+        <p>Bare essentials: labels, helper text, focus, error, disabled.</p>
+      </div>
+      <span class="badge">Accessible</span>
+    </div>
+
+    <div class="grid2" style="margin-top: var(--s-5)">
+      <div class="panel card">
+        <div class="field">
+          <div class="label-row"><label for="t1">Text</label><span class="help">Helper</span></div>
+          <input id="t1" class="input" placeholder="Type here…" />
+        </div>
+
+        <div class="field" style="margin-top: var(--s-4)">
+          <div class="label-row"><label for="e1">Email</label><span class="help">Placeholder</span></div>
+          <input id="e1" class="input" type="email" placeholder="name@company.com" />
+        </div>
+
+        <div class="field" style="margin-top: var(--s-4)">
+          <div class="label-row"><label for="p1">Password</label><a class="help" href="#">Forgot?</a></div>
+          <input id="p1" class="input" type="password" placeholder="••••••••" />
+        </div>
+
+        <div class="field" style="margin-top: var(--s-4)">
+          <div class="label-row"><label for="s1">Select</label><span class="help">State</span></div>
+          <select id="s1"><option>Option A</option><option>Option B</option><option>Option C</option></select>
+        </div>
+      </div>
+
+      <div class="panel card">
+        <div class="field">
+          <div class="label-row"><label for="ta1">Textarea</label><span class="help">Notes</span></div>
+          <textarea id="ta1" rows="5" placeholder="Write a short note…"></textarea>
+        </div>
+
+        <div class="row spread wrap" style="margin-top: var(--s-4)">
+          <label class="check">
+            <input type="checkbox" />
+            <span class="help">Checkbox</span>
+          </label>
+          <span class="badge">Compact</span>
+        </div>
+
+        <div class="toggle" style="margin-top: var(--s-4)">
+          <div>
+            <div style="font-weight:950">Toggle</div>
+            <div class="help">Keyboard accessible.</div>
+          </div>
+          <div class="switch" role="switch" tabindex="0" aria-checked="true" aria-label="Toggle switch"></div>
+        </div>
+
+        <div class="field error" style="margin-top: var(--s-4)">
+          <div class="label-row"><label for="err1">Error state</label><span class="help">Required</span></div>
+          <input id="err1" class="input" value="invalid@" aria-invalid="true" />
+          <div class="help" role="alert">Please enter a valid value.</div>
+        </div>
+
+        <div class="field" style="margin-top: var(--s-4)">
+          <div class="label-row"><label for="dis1">Disabled</label><span class="help">State</span></div>
+          <input id="dis1" class="input" disabled value="Disabled input" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section anchor" id="buttons">
+    <div class="row spread wrap">
+      <div>
+        <div class="kicker">Buttons</div>
+        <h2>Buttons</h2>
+        <p>Primary / secondary / ghost / danger / icon / disabled.</p>
+      </div>
+      <span class="chip">Token-driven</span>
+    </div>
+
+    <div class="panel card" style="margin-top: var(--s-5)">
+      <div class="row wrap" style="gap:10px">
+        <button class="btn primary" type="button"><span class="dot" aria-hidden="true"></span>Primary</button>
+        <button class="btn secondary" type="button">Secondary</button>
+        <button class="btn ghost" type="button">Ghost</button>
+        <button class="btn danger" type="button">Danger</button>
+        <button class="btn icon" type="button" aria-label="Icon button">⟡</button>
+        <button class="btn primary" type="button" disabled>Disabled</button>
+      </div>
+      <div class="divider"></div>
+      <div class="row wrap" style="gap:10px">
+        <span class="badge">Neutral</span>
+        <span class="badge">OK</span>
+        <span class="badge">Warning</span>
+        <span class="badge danger">Danger</span>
+        <span class="chip">chip: tag</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section anchor" id="lists">
+    <div class="row spread wrap">
+      <div>
+        <div class="kicker">Lists</div>
+        <h2>List + audit rows</h2>
+        <p>Simple styled list and compact “audit-style” rows.</p>
+      </div>
+      <span class="badge">Minimal</span>
+    </div>
+
+    <div class="grid2" style="margin-top: var(--s-5)">
+      <div class="panel card">
+        <div class="kicker">Styled list</div>
+        <div class="divider"></div>
+        <ul style="margin:0; padding-left: 18px; color: var(--muted)">
+          <li>Token-driven colors and spacing</li>
+          <li>Readable contrast in dark themes</li>
+          <li>Focus-visible on interactive elements</li>
+        </ul>
+      </div>
+
+      <div class="panel card">
+        <div class="kicker">Audit list</div>
+        <div class="divider"></div>
+        <div class="audit-list">
+          <div class="audit-row">
+            <div>
+              <div class="k">Policy</div>
+              <div class="v">Export blocked</div>
+            </div>
+            <span class="badge danger">Denied</span>
+          </div>
+          <div class="audit-row">
+            <div>
+              <div class="k">Token</div>
+              <div class="v">Rotated</div>
+            </div>
+            <span class="badge">OK</span>
+          </div>
+          <div class="audit-row">
+            <div>
+              <div class="k">Review</div>
+              <div class="v">Queued</div>
+            </div>
+            <span class="badge">Neutral</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel card" style="margin-top: var(--s-5)">
+      <div class="kicker">Optional table</div>
+      <div class="divider"></div>
+      <div class="table-wrap" role="region" aria-label="Example table" tabindex="0">
+        <table>
+          <thead><tr><th>ID</th><th>Event</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr class="striped"><td class="mono">EVT-1001</td><td>Access request</td><td><span class="badge">Neutral</span></td></tr>
+            <tr class="striped"><td class="mono">EVT-1002</td><td>Private export</td><td><span class="badge danger">Denied</span></td></tr>
+            <tr class="striped"><td class="mono">EVT-1003</td><td>Policy update</td><td><span class="badge">OK</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section" style="padding-bottom: var(--s-7)">
+    <div class="row spread wrap">
+      <div class="mono" style="color: var(--muted2)"><a href="https://plexdata.online" target="_blank" rel="noopener" style="color: var(--muted2)">plexdata.online</a> • Free UI • No dependencies</div>
+      <a style="color: var(--muted2)" href="#kit">Back to top ↑</a>
+    </div>
+  </footer>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>

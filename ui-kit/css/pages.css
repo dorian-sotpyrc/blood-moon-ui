@@ -1,0 +1,2 @@
+/* pages.css — minimal anchor offset */
+.anchor{scroll-margin-top: calc(var(--nav-h) + 18px)}
