@@ -13,20 +13,39 @@ Built by **Dorian Sotpyrc** for **plexdata.online**.
 
 ## Preview
 
-> Hero (from the kit)
-
 ![Blood Moon Hero](ui-kit/assets/img/hero.webp)
 
 ---
 
-## Included
+## Palette (from tokens.css)
 
-- Navbar (desktop + mobile dropdown)
+![Blood Moon Palette](palette.svg)
+
+Token-driven: swapping `ui-kit/css/tokens.css` re-skins most UI.
+
+---
+
+## Styling notes (minimal, explicit)
+
+- **Not pure black:** wine/charcoal surfaces keep reds alive and reduce harsh contrast.
+- **Crimson is sparse:** reserved for focus/active/danger (never always-on neon).
+- **Audit readability:** thin borders, subtle surface layers, compact spacing.
+- **Calm effects:** no heavy glass, no loud neon, minimal motion.
+- **Accessibility:** `:focus-visible`, real `<label>`s, error text (not color-only), reduced motion respected.
+- **Responsive:** mobile-first; navbar becomes a single dropdown trigger.
+
+---
+
+## Included elements (single page)
+
+- Navbar (desktop links + mobile dropdown)
+- Containers / cards / dividers
 - Input boxes (focus / error / disabled)
-- Buttons (primary / secondary / ghost / danger / icon)
+- Buttons (primary / secondary / ghost / danger / icon / disabled)
 - Badges + chips
 - Styled list + audit rows
-- Minimal palette + design decisions section
+- Optional minimal table (scrollable on mobile)
+- Palette + design decisions section in the kit page
 
 ---
 

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="640" viewBox="0 0 980 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(20,6,13,1)"/>
+      <stop offset="1" stop-color="rgba(30,7,17,1)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="980" height="640" rx="22" fill="url(#bg)"/>
+  <g transform="translate(24,24)">
+    <text x="0" y="26" font-size="18" font-weight="800" fill="rgba(255,242,245,0.92)">Blood Moon Palette</text>
+    <text x="0" y="50" font-size="13" fill="rgba(255,242,245,0.62)">Generated from ui-kit/css/tokens.css</text>
+  </g>
+
+  
+    <g transform="translate(24,78)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#14060D" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--bg0</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#14060D</text>
+    </g>
+    
+    <g transform="translate(24,122)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#1E0711" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--bg1</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#1E0711</text>
+    </g>
+    
+    <g transform="translate(24,166)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#2A0B16" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--bg2</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#2A0B16</text>
+    </g>
+    
+    <g transform="translate(24,210)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#3D1020" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--bg3</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#3D1020</text>
+    </g>
+    
+    <g transform="translate(24,254)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#FFF2F5" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--ink</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#FFF2F5</text>
+    </g>
+    
+    <g transform="translate(24,298)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#E2BCC8" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--muted</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#E2BCC8</text>
+    </g>
+    
+    <g transform="translate(24,342)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#C79AAA" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--muted2</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#C79AAA</text>
+    </g>
+    
+    <g transform="translate(24,386)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#B72552" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--accent</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#B72552</text>
+    </g>
+    
+    <g transform="translate(24,430)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#E93D42" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--danger</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#E93D42</text>
+    </g>
+    
+    <g transform="translate(24,474)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="#742C8B" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--rim</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">#742C8B</text>
+    </g>
+    
+    <g transform="translate(24,518)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="rgba(255,242,245,.12)" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--line</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">rgba(255,242,245,.12)</text>
+    </g>
+    
+    <g transform="translate(24,562)">
+      <rect x="0" y="0" width="932" height="34" rx="14" fill="rgba(255,242,245,0.03)" stroke="rgba(255,242,245,0.10)"/>
+      <rect x="14" y="8" width="74" height="26" rx="10" fill="rgba(255,242,245,.18)" stroke="rgba(255,242,245,0.18)"/>
+      <text x="102" y="26" font-size="14" font-weight="700" fill="rgba(255,242,245,0.92)">--line2</text>
+      <text x="918" y="26" font-size="13" text-anchor="end" fill="rgba(255,242,245,0.62)">rgba(255,242,245,.18)</text>
+    </g>
+    
+</svg>
